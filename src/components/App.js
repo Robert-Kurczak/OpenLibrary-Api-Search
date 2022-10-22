@@ -26,7 +26,7 @@ function App(){
 
         setSearchBtnLabel("Searching...");
 
-        fetch("http://openlibrary.org/search.json?title=" + phrase.replace(" ", "+") + "&limit=" + limit)
+        fetch("https://openlibrary.org/search.json?title=" + phrase.replace(" ", "+") + "&limit=" + limit)
         .then((response) => response.json())
         .then((data) => {
             //Building object with neccesary data from API
