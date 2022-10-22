@@ -16,6 +16,10 @@
     height: 100px;
 }
 
+.book-table th{
+    height: auto;
+}
+
 .book-table tr:nth-child(odd){
     background-color: #212121;
 }
@@ -24,13 +28,13 @@
     padding: 15px;
 }
 
-.control-btns-td{
+.control-btns-wrapper{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.control-btns-td button{
+.control-btns-wrapper button{
     border: none;
     background-color: #212121;
     box-shadow: 0px 0px 10px 0px black;
@@ -41,6 +45,6 @@
     transition-duration: 0.3s;
 }
 
-.control-btns-td button:hover{
+.control-btns-wrapper button:hover{
     background-color: #141414;
 }
