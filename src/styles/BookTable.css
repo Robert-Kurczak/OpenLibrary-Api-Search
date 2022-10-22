@@ -1,0 +1,46 @@
+.book-table{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 85%;
+    box-shadow: 0px 0px 15px 2px black;
+}
+
+.book-table thead{
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.book-table tr{
+    position: relative;
+    height: 100px;
+}
+
+.book-table tr:nth-child(odd){
+    background-color: #212121;
+}
+
+.book-table td, .book-table th{
+    padding: 15px;
+}
+
+.control-btns-td{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.control-btns-td button{
+    border: none;
+    background-color: #212121;
+    box-shadow: 0px 0px 10px 0px black;
+    padding: 10px 15px;
+    margin: 5% 0;
+    float: left;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.control-btns-td button:hover{
+    background-color: #141414;
+}
